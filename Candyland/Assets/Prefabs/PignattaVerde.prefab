@@ -11,11 +11,11 @@ GameObject:
   - component: {fileID: 5070899183948265316}
   - component: {fileID: 2347310901240988399}
   - component: {fileID: 4621307120042399712}
-  - component: {fileID: 7071893153974126528}
   - component: {fileID: 4448290954109658681}
   - component: {fileID: 4640381019415045432}
+  - component: {fileID: 5687349804476049621}
   m_Layer: 8
-  m_Name: Cube.7881
+  m_Name: Verde
   m_TagString: Pignatta
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -87,27 +87,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7071893153974126528
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2728144217590111723}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 2.5, y: 1.7, z: 0.8}
-  m_Center: {x: 0.25, y: 0.5, z: 0}
 --- !u!114 &4448290954109658681
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -83083,7 +83062,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 29
+  m_VersionIndex: 32
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -83109,6 +83088,28 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!64 &5687349804476049621
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2728144217590111723}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1 &5057060859896100002
 GameObject:
   m_ObjectHideFlags: 0
@@ -83594,7 +83595,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4279327050009971200}
-  - component: {fileID: 7545130860918905100}
   - component: {fileID: 7990275070449840001}
   - component: {fileID: 6532098599450210224}
   - component: {fileID: 8730604216556770728}
@@ -83622,27 +83622,6 @@ Transform:
   - {fileID: 5070899183948265316}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &7545130860918905100
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8420936032431089117}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 10
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.3, y: 2, z: 0.8}
-  m_Center: {x: 0.8, y: 2.3, z: 0}
 --- !u!114 &7990275070449840001
 MonoBehaviour:
   m_ObjectHideFlags: 0
